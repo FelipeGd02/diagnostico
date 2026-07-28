@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { supabase } from './supabaseClient';
-import type { Task } from './types';
+import type { Task } from './src/types';
 
 function TaskList() {
   const [tasks, setTasks] = useState<Task[]>([]);
